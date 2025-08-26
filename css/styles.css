@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu
+{
+display: flex;
+background: red;
+width: 100%;
+padding: 1em;
+align-items: center;
+justify-content: space-around;
+}
+
+nav a
+{
+background: aqua;
+text-decoration: none;
+color: white;
+}
+
+.separacion
+{
+    display: flex;
+    gap: 2em;
+}
+
+.hero
+{
+    display: flex;
+    height: 100vh;
+}
+
+.columna1
+{
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: left;
+    gap: 1em;
+}
+
+.columna1 h2
+{
+font-size: 2.8rem;
+color: whithe;
+}
+
+.columna1 h1
+{
+    font-size: 3.4rem;
+}
+.columna2
+{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+.botones 
+{
+    background-color: pink;
+    display: flex;
+    gap: 2em;
+    width: 70%;
+    justify-content: center;
+    
+}
+
+.botones a 
+{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 1.5px solid orange;
+    padding: 0.5em 1em;
+
+}
+
+.barra 
+{
+    display: flex;
+    background-color: green;
+    justify-content: space-around;
+}
+
+.linea
+{
+    border-bottom: 4px solid #ff4d4d; /* la línea naranja */
+    padding-left: 10px;            /* espacio entre línea y texto */
+    margin: 0.5em 0;               /* separación arriba/abajo */
+    font-size: 2em;
+    font-weight: 500;
+}
